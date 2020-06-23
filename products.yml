@@ -1,20 +1,26 @@
-Couchbase-server:
-  5.5:
-    Released:  "5.5.6"
-    Stable:    "5.5.6"
-  6.0:
-    Released:  "6.0.4"
-    Stable:    "6.0.4"
-  6.5:
-    Released:  "6.5.1"
-    Stable:    "6.5.1"
-  6.6:
-    Released:  "NA"
-    Stable:    "6.6.0-7813"
-  7.0:
-    Released:  "NA"
-    Stable:    "7.0.0-2416"
+---
+couchbase-server:
+  '5.5':
+    release:  '5.5.6'
+    stable:   '5.5.6'
+  '6.0':
+    release:  '6.0.4'
+    stable:   '6.0.4'
+  '6.5':
+    release:  '6.5.1'
+    stable:   '6.5.1'
+  '6.6':
+    stable:   '6.6.0-7813'
+  '7.0':
+    stable:   '7.0.0-2416'
 
 # Other_products:
-# Couchbase_Mobile:
-# Sync_Gateway:
+couchbase-operator:
+  '1.2':
+    release:  '1.2.2'
+    stable:   '1.2.2'
+  '2.0':
+    release:  '2.0.1'
+    stable:   '2.0.1'
+# sync_gateway: etc
+...
